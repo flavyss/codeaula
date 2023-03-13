@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body{
+    height: 100%;
+}
+
+.imgimg{
+    width: 350px;
+}
+
+.flutua{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flutua1{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flutua2{
+    width: 50%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.box1{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    color: white;
+    padding: 12px;
+}
+
+.box2{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    color: white;
+    padding: 12px;
+}
+
+@media screen and (max-width: 900px){
+    .imgimg{
+        width: 100px;
+    }
+}
